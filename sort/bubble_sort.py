@@ -1,4 +1,5 @@
 # swap if the element found is greater than the next element
+# sort in ascending order 
 # complexity: average and worst-case: O(n^2)
 
 def bubble(seq):

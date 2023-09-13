@@ -1,7 +1,7 @@
 # takes an unsorted sequence and sorts it out in ascending or descending order
 # pivot : just a number we base our comparisons off of
 
-# complexity : average-case O(n log n), worst-case O(n^2)
+# complexity : average-case O(n log n), worst-case O(n^2) 
 
 def quick_sort(seq):
     length = len(seq)
