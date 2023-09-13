@@ -3,14 +3,14 @@
 
 def selection_sort(seq):
 
-    for i in range(0, len(seq) - 1):
+    for i in range(0, len(arr) - 1):
         min = i # assume first item is min
 
-        for j in range(i+1, len(seq)): # check after the min (unsorted part)
-            if seq[j] < seq[min]:
+        for j in range(i+1, len(arr)): # check after the min (unsorted part)
+            if arr[j] < arr[min]:
                 min = j
         
         if min != i: # new min exists, need to swap
-            seq[min] , seq[i] = seq[i], seq[min]
+            arr[min] , arr[i] = arr[i], arr[min]
 
-    return seq
+    return arr
