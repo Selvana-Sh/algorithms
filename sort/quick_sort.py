@@ -1,4 +1,4 @@
-# takes an unsorted sequence and sorts it out in ascending or descending order
+# takes an unsorted list and sorts it out in ascending or descending order
 # pivot : just a number we base our comparisons off of
 
 # complexity : average-case O(n log n), worst-case O(n^2) 
