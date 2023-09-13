@@ -3,18 +3,18 @@
 
 # complexity : average-case O(n log n), worst-case O(n^2) 
 
-def quick_sort(seq):
-    length = len(seq)
+def quick_sort(arr):
+    length = len(arr)
     if length <= 1:
-        return seq
+        return arr
     else:
-        pivot = seq[length//2]
+        pivot = arr[length//2]
 
     lower = []
     higher = []
     the_pivot = []
 
-    for item in seq:
+    for item in arr:
         if item < pivot:
            lower.append(item)
         elif item > pivot:
